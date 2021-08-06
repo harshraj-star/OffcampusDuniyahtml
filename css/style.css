@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.carousel-item img{
+    width: 100%;
+    height: 93vh;
+    font-family: 'Open Sans' , sans-serif;
+}
+.imagekisizebadlo{
+    min-width: 100%;
+    max-height: 280px;
+
+
+}
+
+.services img{
+    /*here we use this for providing space between our services cards */
+    width: 100%;
+    height: 100%;
+}
+
+.offer_style{
+    background: #a6dcef;
+}
+
+footer p{
+    /* Footer pe padding(p) ka margin bottom krdo 0 */
+    margin-bottom: 0%;
+}
+
+/*Responsive Media Query..
+// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... }
+
+*/
